@@ -1,10 +1,9 @@
 import { memo } from 'react';
-import './footer.css'
+import "./footer.css"
 const Footer = () => {
   return (
-    <div>
-      <h2>Footer</h2>
-    </div>
+    <div></div>
+  
   );
 };
 

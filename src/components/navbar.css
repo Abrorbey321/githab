@@ -1,0 +1,149 @@
+/* Umumiy sozlamalar */
+.hero-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header stillari */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  background: #b68d6d;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-info {
+  font-size: 12px;
+  text-align: right;
+}
+
+.phone {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-outline {
+  border: 1px solid #ddd;
+  background: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Banner qismi */
+.main-banner {
+  display: flex;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-side {
+  flex: 1.5;
+  position: relative;
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-side {
+  flex: 1;
+  background-color: #b68d6d; /* Rasmda ko'rsatilgan jigarrang rang */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+}
+
+.promo-box h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.discount-badge {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.btn-primary {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  padding: 12px 40px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #b68d6d;
+}
+
+/* Slider strelkalari */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333;
+  z-index: 10;
+}
+
+.left-arrow { left: 20px; }
+.right-arrow { right: 20px; }
