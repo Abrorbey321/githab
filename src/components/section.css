@@ -1,0 +1,29 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+h1{
+text-align: center;
+}
+.yutub{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        box-shadow: 0 2px 8px rgba(115, 25, 25, 0.12);
+margin: 30px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #B17955;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
