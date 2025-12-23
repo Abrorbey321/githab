@@ -48,7 +48,7 @@ const Navbar = () => {
             <p>На коллекции кухонь</p>
             <button className="btn-primary">Выбрать</button>
           </div>
-          <div className="arrow right-arrow">›</div>
+          <div className="arrow right-arrow">›a</div>
         </div>
       </main>
     </div>
