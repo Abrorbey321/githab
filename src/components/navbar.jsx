@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import Img1 from "../../assets/mebel.png"
+import Img1 from "../assets/mebel.png"
 import './navbar.css'
 const Navbar = () => {
   return (
@@ -48,7 +48,7 @@ const Navbar = () => {
             <p>На коллекции кухонь</p>
             <button className="btn-primary">Выбрать</button>
           </div>
-          <div className="arrow right-arrow">›a</div>
+          <div className="arrow right-arrow">›</div>
         </div>
       </main>
     </div>
