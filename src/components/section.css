@@ -21,6 +21,7 @@ button{
     border-radius: 10px;
     margin-left: 600px;
     margin-bottom: 30px;
+    border: none;
 }
 .card{
     display: flex;
