@@ -1,7 +1,8 @@
 import { memo } from 'react';
-import './footer.css'
+import "./footer.css"
 const Footer = () => {
   return (
+ 
     <div>
         <footer className="footer">
       <div className="footer-top">
@@ -62,6 +63,7 @@ const Footer = () => {
       </div>
     </footer>
     </div>
+  
   );
 };
 
